@@ -1,0 +1,3 @@
+.events .event-card { grid-template-columns: 1fr auto; }
+.events .event-line { display: none; }
+@media (max-width: 780px) { .events .event-card { grid-template-columns: 1fr auto; } }
