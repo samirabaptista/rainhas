@@ -5,7 +5,7 @@
 .partners-heading h2 em { color: #8349ff; font-style: normal; }
 .partners-heading > p { max-width: 315px; font-size: 13px; color: #554f58; line-height: 1.75; margin: 0; }
 
-.partners-grid { display: grid; grid-template-columns: repeat(5, 1fr); gap: 18px; }
+.partners-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(190px, 1fr)); gap: 18px; }
 .partner-card { background: #fff; border: 1px solid #e3dde6; border-radius: 4px; padding: 30px 20px; display: flex; flex-direction: column; align-items: center; text-align: center; gap: 20px; transition: border-color .2s ease, transform .2s ease; }
 .partner-card:hover { border-color: #8349ff; transform: translateY(-4px); }
 .partner-mark { width: 100%; max-width: 140px; aspect-ratio: 1 / 1; margin: 0 auto; border-radius: 8px; display: grid; place-items: center; background: #fff; border: 1px solid #ece7ee; padding: 18px; flex-shrink: 0; }
